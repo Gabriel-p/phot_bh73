@@ -42,6 +42,9 @@ def main():
     """
     Compares the (aperture corrected) magnitudes in a als file (IRAF) with the
     magnitudes obtained with the Python scripts.
+
+    Used to generate the image for this issue:
+    https://github.com/astropy/photutils/issues/632
     """
 
     # IRAF als file to be read
