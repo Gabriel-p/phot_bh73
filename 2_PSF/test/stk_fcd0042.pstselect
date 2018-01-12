@@ -1,0 +1,36 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = gabriel                 name       %-23s     
+#K HOST       = gabriel-dell            computer   %-23s     
+#K DATE       = 2018-01-09              yyyy-mm-dd %-23s     
+#K TIME       = 16:15:51                hh:mm:ss   %-23s     
+#K PACKAGE    = daophot                 name       %-23s     
+#K TASK       = psf                     name       %-23s     
+#K IMAGE      = stk_fcd0042             imagename  %-23s     
+#K PHOTFILE   = stk_fcd0042.mag.1       filename   %-23s     
+#K PSTFILE    = stk_fcd0042.pstselect   filename   %-23s     
+#K PSFIMAGE   = stk_fcd0042.psf.1       imagename  %-23s     
+#K GRPSFILE   = stk_fcd0042.psg.1       filename   %-23s     
+#K OPSTFILE   = stk_fcd0042.pst.1       filename   %-23s     
+#K SCALE      = 1.                      units/pix  %-23.7g   
+#K OTIME      = INDEF                   timeunit   %-23s     
+#K IFILTER    = V                       filter     %-23s     
+#K XAIRMASS   = INDEF                   number     %-23.7g   
+#K PSFRAD     = 14.                     scaleunit  %-23.7g   
+#K FITRAD     = 3.28                    scaleunit  %-23.7g   
+#
+#N ID    XCENTER   YCENTER   MAG         MSKY                                  \
+#U ##    pixels    pixels    magnitudes  counts                                \
+#F %-9d  %-10.3f   %-10.3f   %-12.3f     %-15.7g                                
+#
+4216     1565.492  1753.506  13.950      37.68601                               
+4229     338.291   1760.093  13.895      38.90194                               
+4697     2138.688  1930.848  13.938      39.34626                               
+4775     2660.882  1955.566  13.945      38.74659                               
+4902     3269.725  1998.469  13.972      38.79051                               
+5632     3598.043  2249.042  14.034      38.91942                               
+5941     975.155   2366.333  14.156      39.21706                               
+7295     2331.118  2942.641  14.018      38.36272                               
+7512     2822.977  3028.368  14.149      38.0813                                
+7840     3848.417  3171.002  14.038      39.43438                               
+8348     3484.095  3419.916  14.020      38.46817                               
+9584     3261.938  3980.884  14.066      40.40987                               

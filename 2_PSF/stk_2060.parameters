@@ -1,0 +1,98 @@
+
+###########################################
+lun dic 11 13:52:01 CST 2017
+
+PSF Phot script has started
+
+Image name: stk_2060
+Gain = 1.04
+Rdnoise = 3.4
+Aperture used for standard stars [pixels] (from file) = 15.0
+
+Parameters used during the PSF procedure
+
+Image name = stk_2060
+Sky mean value = 2739.41
+Sky standard desviation value [SSTDEV] = 65.78
+Maximum good data value = 60000.0
+Typical FWHM for stellar images = 5.43
+Radius of bigger PSF star in the frame = 22.72
+Aperture photometry radius [pixels] = 5.43
+Threshold = 179.994486992
+Datamin = 2507.98851672
+------------
+Daofind task
+------------
+Number of stars found = 9675
+New Findpars.threshold = 230.0
+------------
+Daofind task
+------------
+Number of stars found = 295
+New Findpars.threshold = 3.0
+------------
+Daofind task
+------------
+Number of stars found = 12071
+New Findpars.threshold = 3.5
+------------
+Daofind task
+------------
+Number of stars found = 9675
+New Findpars.threshold = 3.25
+------------
+Daofind task
+------------
+Number of stars found = 10581
+Fitskypars.annulus = 21.72
+Fitskypars.dannulu = 17.6475
+
+************************************************
+Core PSF photometry
+
+---------------
+Pstselect task
+
+Psfrad = 22.72
+Fitrad = 5.43
+Datamax = 60000.0
+
+End of Pstselect task
+--------------
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 17.29
+New Daopars.psfrad (First Nstar run) = 22.72
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+New Datapars.datamin (Second PSF run) = 2405.13452416
+Daopars.psfrad = 22.72
+
+ --------------------------------
+'Allstar' task
+Allstar stars found = 10147.0
+
+End of Core PSF Reduction
+************************************************
+
+------------------------------------------------
+Aperture correction
+
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.annulus = 2*fannulus = 43.44
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.dannulus = fdannulu/2 = 8.82375
+
+Magnitudes and aperture corrections
+Aperture Potometry: r1 = 5.43; Standar stars aperture: r2 = 15.0
+
+Stars used to obtain aperture correction: 47
+Aperture correction maxmin average:-0.247
+ 
+End of aperture correction
+ 
+Aperture correction performed.
+------------------------------------------------

@@ -1,0 +1,102 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = gabriel                 name       %-23s     
+#K HOST       = gabriel-dell            computer   %-23s     
+#K DATE       = 2018-01-03              yyyy-mm-dd %-23s     
+#K TIME       = 12:42:14                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 3.08                    scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = 978.5943                counts     %-23.7g   
+#K DATAMAX    = 60000.                  counts     %-23.7g   
+#K EXPOSURE   = EXPTIME                 keyword    %-23s     
+#K AIRMASS    = ""                      keyword    %-23s     
+#K FILTER     = FILTER                  keyword    %-23s     
+#K OBSTIME    = ""                      keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = 44.56                   counts     %-23.7g   
+#K GAIN       = EGAIN                   keyword    %-23s     
+#K EPADU      = 0.97                    e-/adu     %-23.7g   
+#K CCDREAD    = ENOISE                  keyword    %-23s     
+#K READNOISE  = 3.3                     e-         %-23.7g   
+#
+#K CALGORITHM = none                    algorithm  %-23s     
+#K CBOXWIDTH  = 7.7                     scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = mode                    algorithm  %-23s     
+#K ANNULUS    = 12.32                   scaleunit  %-23.7g   
+#K DANNULUS   = 10.01                   scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 3.08                    scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#K IMAGE      = stk_fcd0044             imagename  %-23s     
+#K MAXNPSF    = 100                     number     %-23d     
+#K NEWSCALE   = 1.                      units      %-23.7g   
+#K PSFRAD     = 13.32                   scaleunit  %-23.7g   
+#K FITRAD     = 3.08                    scaleunit  %-23.7g   
+#
+#N ID    XCENTER   YCENTER   MAG         MSKY                                  \
+#U ##    pixels    pixels    magnitudes  counts                                \
+#F %-9d  %-10.3f   %-10.3f   %-12.3f     %-15.7g                                
+#
+21303    3353.442  2420.481  17.748      1131.998
+20613    3077.529  2345.75   17.76       1128.103
+26682    2938.908  3057.118  17.77       1127.012
+23832    3101.818  2721.551  17.774      1154.613
+33673    1220.413  3947.292  17.776      1130.538
+26732    2189.368  3061.892  17.832      1128.133
+9894     487.771   1188.581  17.836      1125.235
+31259    3390.279  3643.531  17.842      1125.256
+24954    1750.868  2849.397  17.849      1127.176
+10734    3225.647  1287.638  17.851      1146.642
+26694    2400.839  3058.368  17.852      1134.827
+15363    3781.843  1805.912  17.856      1124.291
+12823    3805.715  1519.235  17.858      1132.924
+33219    3179.011  3891.708  17.864      1124.907
+26234    1345.579  3003.519  17.867      1130.972
+25551    1578.316  2925.558  17.867      1140.104
+20513    2269.572  2336.664  17.868      1121.975
+33943    2014.294  3979.063  17.868      1130.82
+13827    737.42    1633.61   17.871      1136.483
+17217    288.524   2007.345  17.872      1123.48
+18193    3109.637  2099.32   17.873      1154.715
+34270    260.283   4021.005  17.874      1136.65
+18034    1244.686  2084.673  17.879      1136
+2684     3512.012  326.934   17.888      1129.258
+23972    1892.314  2737.782  17.889      1134.202
+23303    1542.408  2655.527  17.892      1123.416
+3231     1635.517  391.36    17.905      1120.556
+16544    1186.468  1936.163  17.905      1134.803
+30114    1919.988  3496.262  17.907      1137.302
+24101    373.784   2752.667  17.91       1136.691
+13238    1379.333  1565.857  17.913      1135.318
+16900    2385.389  1973.664  17.913      1124.525
+26727    1781.805  3061.962  17.915      1129.46
+494      822.72    62.534    17.921      1126.88
+13285    3096.963  1571.508  17.921      1139.767
+14281    741.615   1681.827  17.926      1136.947
+19618    2400.902  2240.548  17.931      1126.851

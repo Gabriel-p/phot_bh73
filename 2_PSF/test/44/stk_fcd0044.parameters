@@ -1,0 +1,302 @@
+
+###########################################
+lun ene  8 16:32:58 CST 2018
+
+PSF Phot script has started
+
+Image name: stk_fcd0044
+Gain = 0.97
+Rdnoise = 3.3
+Aperture used for standard stars [pixels] (from file) = 15.0
+
+Parameters used during the PSF procedure
+
+Image name = stk_fcd0044
+Sky mean value = 1133.16
+Sky standard desviation value [SSTDEV] = 44.56
+Maximum good data value = 60000.0
+Typical FWHM for stellar images = 3.08
+Radius of bigger PSF star in the frame = 13.32
+Aperture photometry radius [pixels] = 3.08
+Threshold = 120.217750677
+Datamin = 978.594320558
+Number of stars found = 34957
+Fitskypars.annulus = 12.32
+Fitskypars.dannulu = 10.01
+
+************************************************
+Core PSF photometry
+
+ Existing '.pstselect' file used
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+New Datapars.datamin (Second PSF run) = 909.898463028
+Daopars.psfrad = 13.32
+
+ --------------------------------
+'Allstar' task
+Allstar stars found = 33333.0
+
+End of Core PSF Reduction
+************************************************
+
+------------------------------------------------
+Aperture correction
+
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.annulus = 2*fannulus = 24.64
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.dannulus = fdannulu/2 = 5.005
+
+Magnitudes and aperture corrections
+Aperture Potometry: r1 = 3.08; Standar stars aperture: r2 = 15.0
+
+Stars used to obtain aperture correction: 34
+Aperture correction maxmin average:-0.23940625
+ 
+End of aperture correction
+ 
+Aperture correction performed.
+------------------------------------------------
+
+###########################################
+mar ene  9 12:09:44 CST 2018
+
+PSF Phot script has started
+
+Image name: stk_fcd0044
+Gain = 0.97
+Rdnoise = 3.3
+Aperture used for standard stars [pixels] (from file) = 15.0
+
+Parameters used during the PSF procedure
+
+Image name = stk_fcd0044
+Sky mean value = 1133.16
+Sky standard desviation value [SSTDEV] = 44.56
+Maximum good data value = 60000.0
+Typical FWHM for stellar images = 3.08
+Radius of bigger PSF star in the frame = 13.32
+Aperture photometry radius [pixels] = 3.08
+Threshold = 120.217750677
+Datamin = 978.594320558
+Number of stars found = 34957
+Fitskypars.annulus = 12.32
+Fitskypars.dannulu = 10.01
+
+************************************************
+Core PSF photometry
+
+---------------
+Pstselect task
+
+Psfrad = 13.32
+Fitrad = 3.08
+Datamax = 60000.0
+
+###########################################
+mar ene  9 12:24:19 CST 2018
+
+PSF Phot script has started
+
+Image name: stk_fcd0044
+Gain = 0.97
+Rdnoise = 3.3
+Aperture used for standard stars [pixels] (from file) = 15.0
+
+Parameters used during the PSF procedure
+
+Image name = stk_fcd0044
+Sky mean value = 1133.16
+Sky standard desviation value [SSTDEV] = 44.56
+Maximum good data value = 60000.0
+Typical FWHM for stellar images = 3.08
+Radius of bigger PSF star in the frame = 13.32
+Aperture photometry radius [pixels] = 3.08
+Threshold = 120.217750677
+Datamin = 978.594320558
+Number of stars found = 34957
+
+###########################################
+mar ene  9 12:25:26 CST 2018
+
+PSF Phot script has started
+
+Image name: stk_fcd0044
+Gain = 0.97
+Rdnoise = 3.3
+Aperture used for standard stars [pixels] (from file) = 15.0
+
+Parameters used during the PSF procedure
+
+Image name = stk_fcd0044
+Sky mean value = 1133.16
+Sky standard desviation value [SSTDEV] = 44.56
+Maximum good data value = 60000.0
+Typical FWHM for stellar images = 3.08
+Radius of bigger PSF star in the frame = 13.32
+Aperture photometry radius [pixels] = 3.08
+Threshold = 120.217750677
+Datamin = 978.594320558
+Number of stars found = 34957
+Fitskypars.annulus = 12.32
+Fitskypars.dannulu = 10.01
+
+************************************************
+Core PSF photometry
+
+ Existing '.pstselect' file used
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Variable PSF model (varorder = 2)
+Daopars.psfrad = 10.24
+New Daopars.psfrad (First Nstar run) = 13.32
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+New Datapars.datamin (Second PSF run) = 909.898463028
+Daopars.psfrad = 13.32
+
+ --------------------------------
+'Allstar' task
+Allstar stars found = 33399.0
+
+End of Core PSF Reduction
+************************************************
+
+------------------------------------------------
+Aperture correction
+
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.annulus = 2*fannulus = 24.64
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.dannulus = fdannulu/2 = 5.005
+
+Magnitudes and aperture corrections
+Aperture Potometry: r1 = 3.08; Standar stars aperture: r2 = 15.0
+
+Stars used to obtain aperture correction: 16
+Aperture correction maxmin average:-0.269642857143
+ 
+End of aperture correction
+ 
+Aperture correction performed.
+------------------------------------------------

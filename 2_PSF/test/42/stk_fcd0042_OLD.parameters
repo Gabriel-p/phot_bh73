@@ -1,0 +1,88 @@
+
+###########################################
+lun dic 11 16:06:18 CST 2017
+
+PSF Phot script has started
+
+Image name: stk_fcd0042
+Gain = 0.97
+Rdnoise = 3.3
+Aperture used for standard stars [pixels] (from file) = 15.0
+
+Parameters used during the PSF procedure
+
+Image name = stk_fcd0042
+Sky mean value = 36.35
+Sky standard desviation value [SSTDEV] = 7.18
+Maximum good data value = 60000.0
+Typical FWHM for stellar images = 3.28
+Radius of bigger PSF star in the frame = 14.12
+Aperture photometry radius [pixels] = 3.28
+Threshold = 24.5120599503
+Datamin = 4.83449434965
+------------
+Daofind task
+------------
+Number of stars found = 12995
+New Findpars.threshold = 3.7
+------------
+Daofind task
+------------
+Number of stars found = 11296
+New Findpars.threshold = 4.0
+------------
+Daofind task
+------------
+Number of stars found = 9863
+Fitskypars.annulus = 13.12
+Fitskypars.dannulu = 10.66
+
+************************************************
+Core PSF photometry
+
+---------------
+Pstselect task
+
+Psfrad = 14.12
+Fitrad = 3.28
+Datamax = 60000.0
+
+End of Pstselect task
+--------------
+
+------------------------------------------------
+PSF and neighbors stars substraction
+
+Constant PSF model (varorder = 0)
+Daopars.psfrad = 10.84
+New Daopars.psfrad (First Nstar run) = 14.12
+
+End of PSF and neighbors stars substraction
+------------------------------------------------
+
+New Datapars.datamin (Second PSF run) = -9.1723970505
+Daopars.psfrad = 14.12
+
+ --------------------------------
+'Allstar' task
+Allstar stars found = 9498.0
+
+End of Core PSF Reduction
+************************************************
+
+------------------------------------------------
+Aperture correction
+
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.annulus = 2*fannulus = 26.24
+Third Phot task (second if no new stars added after PSF fitting), Fitskypars.dannulus = fdannulu/2 = 5.33
+
+Magnitudes and aperture corrections
+Aperture Potometry: r1 = 3.28; Standar stars aperture: r2 = 15.0
+
+Stars used to obtain aperture correction: 46
+Aperture correction maxmin average:-0.237
+ 
+End of aperture correction
+ 
+Aperture correction performed.
+------------------------------------------------

@@ -1,0 +1,95 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = gabriel                 name       %-23s     
+#K HOST       = gabriel-dell            computer   %-23s     
+#K DATE       = 2017-12-11              yyyy-mm-dd %-23s     
+#K TIME       = 11:09:29                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 5.36                    scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = 1016.329                counts     %-23.7g   
+#K DATAMAX    = 60000.                  counts     %-23.7g   
+#K EXPOSURE   = EXPTIME                 keyword    %-23s     
+#K AIRMASS    = ""                      keyword    %-23s     
+#K FILTER     = FILTER                  keyword    %-23s     
+#K OBSTIME    = ""                      keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = 38.41                   counts     %-23.7g   
+#K GAIN       = EGAIN                   keyword    %-23s     
+#K EPADU      = 1.04                    e-/adu     %-23.7g   
+#K CCDREAD    = ENOISE                  keyword    %-23s     
+#K READNOISE  = 3.4                     e-         %-23.7g   
+#
+#K CALGORITHM = none                    algorithm  %-23s     
+#K CBOXWIDTH  = 13.4                    scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = mode                    algorithm  %-23s     
+#K ANNULUS    = 21.44                   scaleunit  %-23.7g   
+#K DANNULUS   = 17.42                   scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 5.36                    scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#K IMAGE      = stk_2059                imagename  %-23s     
+#K MAXNPSF    = 30                      number     %-23d     
+#K NEWSCALE   = 1.                      units      %-23.7g   
+#K PSFRAD     = 22.44                   scaleunit  %-23.7g   
+#K FITRAD     = 5.36                    scaleunit  %-23.7g   
+#
+#N ID    XCENTER   YCENTER   MAG         MSKY                                  \
+#U ##    pixels    pixels    magnitudes  counts                                \
+#F %-9d  %-10.3f   %-10.3f   %-12.3f     %-15.7g                                
+#
+1312     2467.845  695.684   12.154      1181.223                               
+4168     3095.057  2110.591  12.271      1169.339                               
+6370     4075.531  3153.603  12.400      1154.593                               
+2269     1542.584  1230.299  12.453      1185.858                               
+6488     3813.795  3208.961  12.454      1159.25                                
+4215     3227.252  2128.740  12.459      1170.051                               
+5974     2383.331  2982.735  12.460      1161.619                               
+3872     1771.312  1983.747  12.564      1176.562                               
+1777     3284.495  959.667   12.567      1177.778                               
+1610     3348.961  860.997   12.567      1175.805                               
+2153     2578.258  1169.609  12.573      1178.926                               
+2199     3353.760  1192.818  12.580      1180.224                               
+784      158.464   415.249   12.654      1191.054                               
+1854     1461.035  1008.190  12.674      1185.569                               
+603      2918.892  322.903   12.703      1181.291                               
+2383     3312.455  1278.822  12.706      1176.049                               
+6656     1419.409  3305.850  12.782      1162.411                               
+1639     776.469   876.851   12.809      1181.502                               
+3931     2071.572  2013.623  12.838      1178.642                               
+8080     2904.767  3953.531  12.895      1145.449                               
+6621     2136.185  3284.252  12.915      1153.465                               
+6578     249.927   3262.664  12.924      1165.795                               
+1125     1967.162  603.373   12.934      1183.1                                 
+1475     2755.307  777.491   12.937      1178.598                               
+6866     2964.833  3404.361  12.973      1149.099                               
+4161     3305.053  2107.692  13.034      1166.218                               
+7837     1037.201  3851.532  13.039      1155.964                               
+6172     2874.021  3071.314  13.046      1154.894                               
+2929     3643.928  1546.982  13.052      1168.781                               
+1573     2232.610  839.371   13.068      1177.061                               

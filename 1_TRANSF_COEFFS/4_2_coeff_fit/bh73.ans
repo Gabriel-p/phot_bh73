@@ -1,0 +1,144 @@
+# Sun 12:02:13 24-Dec-2017
+begin	UFIT
+	status	0	(Solution converged)
+	variance	0.004330082
+	stdeviation	0.06580336
+	avsqerror	0.004702306
+	averror		0.06857336
+	avsqscatter	0.004336148
+	avscatter	0.06584943
+	chisqr		0.9208423
+	msq		0.001082521
+	rms		0.03290168
+	reference	mU
+	fitting		(UB+BV+V)+u1+u2*XU+u3*UB+u4*UB*XU
+	weights		photometric
+	parameters	4
+		u1	(fit)
+		u2	(constant)
+		u3	(fit)
+		u4	(fit)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		3.659483
+		0.442
+		-0.04019953
+		-0.03169793
+	errors	4
+		0.03394157
+		0.
+		0.08721175
+		0.
+
+# Sun 12:02:57 24-Dec-2017
+begin	BFIT
+	status	0	(Solution converged)
+	variance	0.
+	stdeviation	0.
+	avsqerror	0.
+	averror		0.
+	avsqscatter	0.
+	avscatter	0.
+	chisqr		0.
+	msq		8.128873E-7
+	rms		9.016026E-4
+	reference	mB
+	fitting		(BV+V)+b1+b2*XB+b3*BV+b4*BV*XB
+	weights		photometric
+	parameters	4
+		b1	(fit)
+		b2	(constant)
+		b3	(fit)
+		b4	(fit)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		1.686928
+		0.232
+		-0.1767316
+		0.06384443
+	errors	4
+		0.
+		0.
+		0.
+		0.
+
+# Sun 12:03:13 24-Dec-2017
+begin	VFIT
+	status	0	(Solution converged)
+	variance	2.505417E-4
+	stdeviation	0.01582851
+	avsqerror	2.489066E-4
+	averror		0.01577677
+	avsqscatter	2.134762E-4
+	avscatter	0.01461083
+	chisqr		1.006569
+	msq		6.263542E-5
+	rms		0.007914254
+	reference	mV
+	fitting		V+v1+v2*XV+v3*BV+v4*BV*XV
+	weights		photometric
+	parameters	4
+		v1	(fit)
+		v2	(constant)
+		v3	(fit)
+		v4	(fit)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		1.606477
+		0.136
+		0.03963335
+		0.03036864
+	errors	4
+		0.01270769
+		0.
+		0.02128235
+		0.
+
+# Sun 12:04:02 24-Dec-2017
+begin	IFIT
+	status	0	(Solution converged)
+	variance	2.573526E-5
+	stdeviation	0.005072993
+	avsqerror	4.685374E-5
+	averror		0.006844979
+	avsqscatter	0.
+	avscatter	0.
+	chisqr		0.5492681
+	msq		1.286763E-5
+	rms		0.003587148
+	reference	mI
+	fitting		(V-VI)+i1+i2*XI+i3*VI+i4*VI*XI
+	weights		photometric
+	parameters	4
+		i1	(fit)
+		i2	(constant)
+		i3	(fit)
+		i4	(constant)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		1.710285
+		0.048
+		-0.04708335
+		0.
+	errors	4
+		0.007984065
+		0.
+		0.01132479
+		0.
+

@@ -1,0 +1,15 @@
+#
+# Instrumental zero airmass magnitude.
+# F_I^(0A) = F_I  - K * X  ; X: airmass, K: extinction coefficient
+#
+# Standard color.
+# (F_1 - F_2)_L = c_1 (F_1 - F_2)_I^(0A) + c_2
+#
+# Standard magnitude.
+# V_L = V_I^(0A) + c_1 * (B - V)_L + c_2
+#
+# ID  N_a   N_r       c_1      c_2  R^2     RMSE
+V       13     7    -0.069   -1.612    0.975    0.004
+BV      18     2     1.220   -0.098    0.997    0.020
+UB      14     6     0.979   -1.975    0.994    0.028
+VI      16     4     0.900    0.085    0.998    0.015

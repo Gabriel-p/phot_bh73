@@ -1,0 +1,144 @@
+# Thu 15:47:03 28-Dec-2017
+begin	UFIT
+	status	0	(Solution converged)
+	variance	0.002173553
+	stdeviation	0.04662138
+	avsqerror	0.002172211
+	averror		0.04660699
+	avsqscatter	0.001800135
+	avscatter	0.042428
+	chisqr		1.000618
+	msq		0.001086777
+	rms		0.0329663
+	reference	mU
+	fitting		(UB+BV+V)+u1+u2*XU+u3*UB+u4*UB*XU
+	weights		photometric
+	parameters	4
+		u1	(fit)
+		u2	(constant)
+		u3	(fit)
+		u4	(constant)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		3.598716
+		0.49
+		-0.07907926
+		0.
+	errors	4
+		0.02256761
+		0.
+		0.05729073
+		0.
+
+# Thu 15:47:36 28-Dec-2017
+begin	BFIT
+	status	0	(Solution converged)
+	variance	1.007140E-4
+	stdeviation	0.01003563
+	avsqerror	9.948006E-5
+	averror		0.009973969
+	avsqscatter	4.759830E-5
+	avscatter	0.006899152
+	chisqr		1.012403
+	msq		5.035698E-5
+	rms		0.007096265
+	reference	mB
+	fitting		(BV+V)+b1+b2*XB+b3*BV+b4*BV*XB
+	weights		photometric
+	parameters	4
+		b1	(fit)
+		b2	(constant)
+		b3	(fit)
+		b4	(constant)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		1.636258
+		0.27
+		-0.09976028
+		0.
+	errors	4
+		0.007145855
+		0.
+		0.01244062
+		0.
+
+# Thu 15:49:09 28-Dec-2017
+begin	VFIT
+	status	0	(Solution converged)
+	variance	1.254470E-4
+	stdeviation	0.01120031
+	avsqerror	1.240807E-4
+	averror		0.01113915
+	avsqscatter	8.854837E-5
+	avscatter	0.009410014
+	chisqr		1.011011
+	msq		6.272349E-5
+	rms		0.007919816
+	reference	mV
+	fitting		V+v1+v2*XV+v3*BV+v4*BV*XV
+	weights		photometric
+	parameters	4
+		v1	(fit)
+		v2	(constant)
+		v3	(fit)
+		v4	(constant)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		1.627517
+		0.12
+		0.07942992
+		0.
+	errors	4
+		0.008708989
+		0.
+		0.01467692
+		0.
+
+# Thu 15:49:56 28-Dec-2017
+begin	IFIT
+	status	0	(Solution converged)
+	variance	2.573526E-5
+	stdeviation	0.005072993
+	avsqerror	4.685374E-5
+	averror		0.006844979
+	avsqscatter	0.
+	avscatter	0.
+	chisqr		0.5492681
+	msq		1.286763E-5
+	rms		0.003587148
+	reference	mI
+	fitting		(V-VI)+i1+i2*XI+i3*VI+i4*VI*XI
+	weights		photometric
+	parameters	4
+		i1	(fit)
+		i2	(constant)
+		i3	(fit)
+		i4	(constant)
+	derivatives	4
+		0.1
+		0.1
+		0.1
+		0.1
+	values	4
+		1.740273
+		0.02
+		-0.0470834
+		0.
+	errors	4
+		0.007984064
+		0.
+		0.0113248
+		0.
+

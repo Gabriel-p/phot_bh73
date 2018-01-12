@@ -1,0 +1,32 @@
+# Declare the observations file variables
+
+observations
+
+TU            3              # time of observation in filter U
+XU            4              # airmass in filter U
+xU            5              # x coordinate in filter U
+yU            6              # y coordinate in filter U
+mU            7              # instrumental magnitude in filter U
+error(mU)     8              # magnitude error in filter U
+
+TB            10             # time of observation in filter B
+XB            11             # airmass in filter B
+xB            12             # x coordinate in filter B
+yB            13             # y coordinate in filter B
+mB            14             # instrumental magnitude in filter B
+error(mB)     15             # magnitude error in filter B
+
+TV            17             # time of observation in filter V
+XV            18             # airmass in filter V
+xV            19             # x coordinate in filter V
+yV            20             # y coordinate in filter V
+mV            21             # instrumental magnitude in filter V
+error(mV)     22             # magnitude error in filter V
+
+TI            24             # time of observation in filter I
+XI            25             # airmass in filter I
+xI            26             # x coordinate in filter I
+yI            27             # y coordinate in filter I
+mI            28             # instrumental magnitude in filter I
+error(mI)     29             # magnitude error in filter I
+
